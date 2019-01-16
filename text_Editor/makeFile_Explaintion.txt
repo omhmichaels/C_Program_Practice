@@ -1,0 +1,28 @@
+
+#
+#
+
+##
+
+##
+
+#
+
+
+
+
+### Makefile explaination
+
+ > $(CC)
+  - make expands to cc by default
+
+ > -Wall
+  - all Warnings
+ > -Wextra -pedantic 
+  - more warnings 
+
+ > -std=c99
+  - specifies version of C standard were using
+    99 allows variable declaratiion anywhere within a functuin. ANSI C 
+    requires all cariables to be deeclared at the top of a function block.
+
